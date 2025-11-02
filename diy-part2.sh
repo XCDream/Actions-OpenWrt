@@ -18,4 +18,5 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
-sed -i 's/192.168.1.1/192.168.1.200/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.1.200/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.1.200/g' package/base-files/luci/bin/config_generate
